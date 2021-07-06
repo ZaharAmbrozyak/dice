@@ -11,3 +11,4 @@ class Die:
      def roll(self):
           """Повернути випадкове значення в залежності від кількості граней куба"""
           return randint(1, self.num_sides)
+     
